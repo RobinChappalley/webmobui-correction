@@ -6,7 +6,6 @@ export default defineConfig({
         outDir: '../dist',
         target: 'es6',
         emptyOutDir: true, // Clean the output directory before building
-        manifest: true,
     },
     server: {
         host: true

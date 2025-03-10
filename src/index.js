@@ -60,4 +60,4 @@ router()
 window.addEventListener('offline',(e) => document.body.classList.add('offline'))
 window.addEventListener('online', (e) => document.body.classList.remove('offline'))
 
-navigator.serviceWorker.register( new URL('service-worker.js', import.meta.url))
+navigator.serviceWorker.register('service-worker.js')
